@@ -22,7 +22,7 @@
 
 1. Què passa amb la resposta quan `num_predict` és 20?
 
-   **Resposta:**
+   **Que la resposta es talla bruscament al arribar a 20 tokens i no arriba a explicar que és una xarxa neuronal**
 
 2. Compareu el començament de la resposta amb `num_predict` 200 i sense límit. El model «sap» que té un límit o simplement es talla? Com aconseguiríeu una resposta curta però completa?
 
