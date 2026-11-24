@@ -26,20 +26,20 @@
 
 | Llavor (seed) | Nom 1 | Nom 2 | Nom 3 | Són iguals? |
 | :- | :- | :- | :- | :- |
-| Cap (aleatòria) | | | | |
-| 42 | | | | |
+| Cap (aleatòria) |Anàlisi de Paradoxes Quantics en Sistemes Cognitius. | Orto-Resonància Semàntica.|Sintaxis del Silici Flotant | No |
+| 42 | Bio-algoritmes de Carxofes |  Bio-algoritmes de Carxofes| Bio-algoritmes de Carxofes | No |
 
 ## Preguntes
 
 1. Quan la llavor és la mateixa, els tres noms són iguals o diferents? Proveu ara una altra llavor (per exemple, `--seed 43`): surt el mateix nom?
 
-   **Resposta:**
+   *Quan la llavor és la mateixa, els tres noms són iguals (amb --seed 42 surt sempre Bio-algoritmes de Carxofes). En canvi, en provar --seed 43, surt un nom diferent (Sintaxi de Nebulació Quàntica les tres vegades), perquè canviar la llavor canvia la seqüència que guia als tokens**
 
 2. Penseu en una situació en què voldríeu obtenir exactament la mateixa resposta dues vegades (per exemple, per trobar un error en un programa). Quina?
 
-   **Resposta:**
+   **Per exemple, al fer proves automatitzades : si cada execució genera un text diferent a l'atzar, costa saber si un error ve del codi que tracta la resposta o de la variabilitat del model. Fixar una seed permet reproduir exactament el mateix cas de prova i verificar si el canvi al codi l'ha resolt.***
 
 3. Compareu els vostres noms amb els d'una altra persona de la classe que hagi fet servir la mateixa llavor. Són iguals? Per què creieu que pot passar?
 
-   **Resposta:**
+   **No són iguals. Això pot passar per diferències en la versió del model o d'Ollama, el tipus de especificacions (CPU/GPU) o l'estat del servidor/sessió en el moment de fer la petició.**
 
